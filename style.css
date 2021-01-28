@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+    margin: 0;
+
+}
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   height: 100%;
+   
+}
+
+.leftcontainer{
+    padding: 10%;
+    height: 100%;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.rightcontainer{
+    padding: 5%;
+    height: 100%;
+    
+   
+}
+
+.tracker{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    
+}
+
+li{
+    border-bottom: solid blue 5px;
+}
