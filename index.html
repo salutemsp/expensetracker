@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href='style.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker</title>
@@ -10,7 +12,7 @@
     <div class='leftcontainer'>
         <h1 class='title'>Your Budget</h1>
         <p class='date'>date</p>
-        <p class='budget'>₱ 1000</p>
+        <p class='budget' type='number'>1000</p>
     </div>
 
 
@@ -23,22 +25,22 @@
           </select>
         <p>Tracking Expenses</p><hr>
         <input class='description' type="text" placeholder="Description">
-        <input class='amount' type="value" placeholder="Value">
+        <input class='amount' type="number" placeholder="Value">
         <button class='enter'>Submit</button>
             <div class="tracker">
-                <div class="data"><ul class="ul">
-                    <li>sample</li>
-                </ul></div>
+                <div class="data">
+                    <ul class="ul1">
+                    <li>1</li>
+                    </ul>
 
-                <div class="data"><ul class="ul">
-                    <li>sample</li>
-                </ul></div>
+                    <ul class="ul2">
+                    <li>2</li>
+                    </ul>
+                </div>
 
-                <div class="data"><ul class="ul">
-                    <li>sample</li>
-                </ul></div>
+                
             </div>
-    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

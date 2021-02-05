@@ -1,13 +1,14 @@
 html{
     height: 100%;
     margin: 0;
-
+    font-family: 'Oswald', sans-serif;
 }
 
 body{
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
    height: 100%;
    
 }
@@ -25,12 +26,27 @@ body{
    
 }
 
-.tracker{
+.data{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    
+    grid-template-columns: 1fr 1fr;
+}
+ul{
+    font-size: 1.5em;
+    list-style: none;
+    padding-left: 0px;
+}
+.ul2{
+    text-align: end;
 }
 
 li{
-    border-bottom: solid blue 5px;
+    border-bottom: solid rgb(4, 4, 14) 2px;
+}
+
+.add{
+    color:green;
+}
+
+.expend{
+    color: red;
 }
