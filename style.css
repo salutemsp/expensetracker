@@ -28,14 +28,14 @@ body{
 
 .data{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .6fr 1fr 1fr;
 }
 ul{
     font-size: 1.5em;
     list-style: none;
     padding-left: 0px;
 }
-.ul2{
+.amountLi{
     text-align: end;
 }
 
@@ -50,3 +50,11 @@ li{
 .expend{
     color: red;
 }
+
+.budget{
+    font-size: 2em;
+}
+.date{
+    font-size: 1.5em;
+}
+
